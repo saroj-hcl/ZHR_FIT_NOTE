@@ -1,0 +1,62 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "http://10.242.98.152/sap/opu/odata/sap/ZHCM_LEAVE_REQ_CREATE_CHANGE_SRV/ZFITNoteSet(Pernr='09801970',Begda='20151001',Endda='20151001')",
+                    "uri": "http://10.242.98.152/sap/opu/odata/sap/ZHCM_LEAVE_REQ_CREATE_CHANGE_SRV/ZFITNoteSet(Pernr='09801970',Begda='20151001',Endda='20151001')",
+                    "type": "ZHCM_LEAVE_REQ_CREATE_CHECK_SRV.ZFITNote"
+                },
+                "FitNote": "Fitnote 1",
+                "Pernr": "09801970",
+                "Begda": "20151001",
+                "Endda": "20151001",
+                "Subty": "9000",
+                "CASNO": "",
+                "DESCR": "Medical Certificate",
+                "RDATE": "20151001",
+                "RTIME": "",
+                "IDATE": "20151001",
+                "ITIME": "000000",
+                "TCOST": "    0.00",
+                "Ocdnn": "18",
+                "Odtnn": "20151001",
+                "Otmnn": "000000",
+                "Vdtnn": "20151001",
+                "Jnfnn": "",
+                "Rcdnn": "01",
+                "Remnn": "",
+                "ReqId": "",
+                "ProcessInd": ""
+            },
+            {
+                "__metadata": {
+                    "id": "http://10.242.98.152/sap/opu/odata/sap/ZHCM_LEAVE_REQ_CREATE_CHANGE_SRV/ZFITNoteSet(Pernr='09801970',Begda='20151001',Endda='20151001')",
+                    "uri": "http://10.242.98.152/sap/opu/odata/sap/ZHCM_LEAVE_REQ_CREATE_CHANGE_SRV/ZFITNoteSet(Pernr='09801970',Begda='20151001',Endda='20151001')",
+                    "type": "ZHCM_LEAVE_REQ_CREATE_CHECK_SRV.ZFITNote"
+                },
+                "FitNote": "Fitnote 2",
+                "Pernr": "09801970",
+                "Begda": "20151001",
+                "Endda": "20151001",
+                "Subty": "9000",
+                "CASNO": "",
+                "DESCR": "Medical Certificate",
+                "RDATE": "20151001",
+                "RTIME": "",
+                "IDATE": "20151001",
+                "ITIME": "000000",
+                "TCOST": "    0.00",
+                "Ocdnn": "18",
+                "Odtnn": "20151002",
+                "Otmnn": "000000",
+                "Vdtnn": "20151002",
+                "Jnfnn": "",
+                "Rcdnn": "01",
+                "Remnn": "",
+                "ReqId": "",
+                "ProcessInd": ""
+            }
+        ]
+    }
+}

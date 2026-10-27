@@ -1,0 +1,44 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+   xmlns="sap.m"  xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:l="sap.ui.layout" controllerName="hcm.tfl.fitnote.view.Detail" xmlns:html="http://www.w3.org/1999/xhtml">
+  <Page title="Fit note" showNavButton="true" navButtonPress="handleNavButtonPress">
+    <content>
+      <!-- <ObjectHeader title="{NotificationId}" number="{Type}"> -->
+
+      <ObjectHeader id="TXT_HDR_TITLE" title="">
+        <statuses>
+          <ObjectStatus id="TXT_ILLNESS_TITLE" text="" class="objAttrStyle" />
+          <ObjectStatus id="TXT_START_DATE" title="Start Date" text="" class="objAttrStyle" />
+          <ObjectStatus id="TXT_END_DATE" title="End Date" text="" class="objAttrStyle" />
+        </statuses>
+        <attributes>
+        </attributes>
+      </ObjectHeader>
+      <!--  <VBox id="idVbox">
+      </VBox>-->
+
+      <l:VerticalLayout id="icnTBFilter" width="100%">
+
+      </l:VerticalLayout>
+      <!--  <IconTabBar expanded="true" select="onSelectChanged" id="idIconTB"
+            selectedKey="1">
+            <items>
+              <IconTabFilter icon="sap-icon://hint" key="1" id="icnTBFilter">
+              </IconTabFilter>
+            </items>
+
+      </IconTabBar>-->
+
+
+      <Button icon="sap-icon://add" text="Add" id="btnAddRow" class="addRowBtnStyle" press="onAddRowPress"/>
+    </content>
+    <footer>
+      <Bar>
+        <contentRight>
+          <Button id="idSave" text="Accept Changes" type="Emphasized" press="saveNote" />
+          <Button id="idReset" text="Reset" press="_handleResetButtonPress" />
+        </contentRight>
+
+      </Bar>
+    </footer>
+  </Page>
+</core:View>
